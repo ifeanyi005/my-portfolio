@@ -47,8 +47,13 @@ body {
     "Segoe UI Symbol";
   font-weight: 400;
   font-size: 14px;
+  
+}
+.borderline {
   border: 6px solid #fcfcfc;
   height: 100vh;
+  overflow-y: hidden;
+  position: fixed;
 }
 
 body .container {
