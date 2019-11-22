@@ -34,10 +34,7 @@ html {
 }
 
 html {
-  scroll-behavior: smooth;
   cursor: url(/assets/cursor.svg), auto;
-  scroll-behavior: smooth;
-  transition: all 1s cubic-bezier(.165,.84,.44,1);
 }
 
 
@@ -324,8 +321,8 @@ nav ul li ul li a {
 
 .grid-centering {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   width: 100%;
  margin-top: 10em;
 }
