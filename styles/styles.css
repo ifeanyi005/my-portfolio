@@ -58,7 +58,6 @@ body {
 
 .borderline {
   border: 6px solid #fcfcfc;
-  position: fixed;
   height: 100vh;
 }
 
@@ -119,7 +118,7 @@ h4 {
 body header {
   /* background: #F8FAFE; */
   /* background-size: cover; */
-  /* display: grid; */
+  display: grid;
   width: 100%;
   /* grid-template-rows: 1fr; */
 }
