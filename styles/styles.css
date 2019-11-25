@@ -59,6 +59,8 @@ body {
 .borderline {
   border: 6px solid #fcfcfc;
   height: 100vh;
+  position: fixed;
+  overflow-y: hidden;
 }
 
 body span.name {
