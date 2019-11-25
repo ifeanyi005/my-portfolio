@@ -69,6 +69,10 @@ body span.name {
 body .container {
   width: 90%;
   max-width: 1500px;
+  min-height: calc(100vh - 82px);
+/* background: yellow; */
+display: flex;
+padding-bottom: 82px;
 }
 
 
@@ -150,9 +154,10 @@ nav {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  width: 85%;
+  width: 90%;
   /* height: 100vh; */
 }
+
 
 
 
@@ -163,11 +168,11 @@ nav {
 
 }
 
-@media (max-width:725px) {
+/* @media (max-width:725px) {
   .social {
     margin-bottom: 8em;
   }
-}
+} */
 
 @media (max-width:525px) {
   .grid-centering {
