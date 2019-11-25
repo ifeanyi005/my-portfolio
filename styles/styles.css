@@ -35,11 +35,11 @@
 }
 
 
-/* body,
+body,
 html {
   overflow-x: hidden;
   overflow-y: scroll;
-} */
+}
 
 
 
@@ -59,10 +59,12 @@ body {
 
 }
 
+/* 
 .borderline {
   border: 6px solid #fcfcfc;
   height: 100vh;
-}
+overflow: hidden;
+} */
 
 body span.name {
   color: #FFAB00;
@@ -72,6 +74,10 @@ body span.name {
 body .container {
   width: 90%;
   max-width: 1500px;
+  min-height: calc(100vh - 82px);
+  /* background: yellow; */
+  display: flex;
+  padding-bottom: 82px;
 }
 
 
@@ -152,11 +158,11 @@ nav {
 .grid-centering {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  /* display: flex; */
-  width: 85%;
+  /* align-items: center; */
+  width: 90%;
+  /* height: 100vh; */
 }
+
 
 
 
@@ -219,7 +225,6 @@ nav {
 .intro>span,
 .intro-two>span {
   color: #fff;
-  /* text-decoration: underline; */
   /* transition: all 1s cubic-bezier(.165, .84, .44, 1); */
 }
 
@@ -230,9 +235,17 @@ nav {
 }
 
 .intro span a,
-.intro-two>span a {
+.intro-two span a {
   text-decoration: none !important;
   transition: all 1s cubic-bezier(.165, .84, .44, 1);
+  text-decoration: underline !important;
+}
+
+.intro span a:hover,
+.intro-two span a:hover {
+  text-decoration: none !important;
+  transition: all 1s cubic-bezier(.165, .84, .44, 1);
+  text-decoration: none !important;
 }
 
 
