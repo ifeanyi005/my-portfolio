@@ -59,8 +59,7 @@ body {
 .borderline {
   border: 6px solid #fcfcfc;
   height: 100vh;
-  position: fixed;
-  overflow-y: hidden;
+
 }
 
 body span.name {
@@ -221,7 +220,6 @@ nav {
 .intro>span,
 .intro-two>span {
   color: #fff;
-  /* text-decoration: underline; */
   /* transition: all 1s cubic-bezier(.165, .84, .44, 1); */
 }
 
@@ -232,9 +230,16 @@ nav {
 }
 
 .intro span a,
-.intro-two>span a {
+.intro-two span a {
   text-decoration: none !important;
   transition: all 1s cubic-bezier(.165, .84, .44, 1);
+  text-decoration: underline !important;
+}
+.intro span a:hover,
+.intro-two span a:hover {
+  text-decoration: none !important;
+  transition: all 1s cubic-bezier(.165, .84, .44, 1);
+  text-decoration: none!important;
 }
 
 
