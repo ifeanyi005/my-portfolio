@@ -55,12 +55,12 @@ body {
   font-size: 14px;
   cursor: url(/assets/cursor.svg), auto;
 }
-
+/* 
 .borderline {
   border: 6px solid #fcfcfc;
   height: 100vh;
-
-}
+overflow: hidden;
+} */
 
 body span.name {
   color: #FFAB00;
